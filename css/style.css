@@ -1,0 +1,229 @@
+.container{
+  width: min(100%, 1440px);
+  margin: auto;
+}
+/* header */
+header{
+  background-color: #2E0230;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 34px;
+}
+.burger{
+  display: none;
+}
+ul{
+  display: flex;
+  column-gap: 100px;
+}
+.active{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #ffffff;
+  position: relative;
+}
+.active:hover{
+  color: #F30AEA;
+  text-shadow: 0px 0px 20px #F30AEA;
+}
+.active::after{   /*ესენი ინტერნეტში ვნახე, შესაძლოა შეცდომებიც იყოს*/
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: #F30AEA;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  opacity: 0;
+}
+.active:hover::after{
+  opacity: 1;
+  transition: all 0.2s;
+  pointer-events: none;
+}
+.header_last_child{
+  display: flex;
+  column-gap: 8px;
+}
+.logo_button{
+  border: none;
+  border: 1px solid #F30AEA;
+  border-radius: 8px;
+  width: 84px;
+  height: 42px;
+  background-color: transparent;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #ffffff;
+  cursor: pointer;
+  position: relative;
+}
+.logo_button:hover{
+  background-color: #F30AEA;
+  transition: .2s linear;
+}
+.icon_button{
+  border: none;
+  border-radius: 8px;
+  width: 42px;
+  height: 42px;
+  background-color: #F30AEA;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.icon_button:hover{
+  background-color: transparent;
+  border: 1px solid #F30AEA;
+  transition: .2s linear;
+}
+/* section */
+
+section{
+  background-image: url("../images/Rectangle\ 3.png");
+  height: 912px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-block: 64px;
+}
+.section_div{
+  margin: auto;
+  width: 920px;
+  height: 784px;
+  border-radius: 20px;
+  border: 1px solid #B052B5C9;
+  background: #1C1325CC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* form{
+  background-color: rgb(0, 0, 0);
+  width: 20%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+} */
+/* section{
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+article{
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+} */
+/* input{
+  width: 100%;
+  background-color: transparent;
+  border-bottom: 3px solid yellow;
+} */
+/* .box{
+  display: flex;
+  justify-content: space-between;
+} */
+/* input[type=text]{
+  background-color: brown;
+} */
+/* label{
+  color: rgb(228, 164, 13);
+}
+button{
+  height: 60px;
+  background-color: rgb(30, 0, 128);
+}
+textarea{
+  background-color: transparent;
+  resize: none;
+} */
+/* input[type=checkbox]{
+  appearance: none;
+  accent-color: red;
+  width: 24px;
+  height: 24px;
+  border: 3px solid palevioletred;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input[type=checkbox]:checked::after{
+  content: "\f00c";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 16px;
+  color: #F30AEA;
+}
+input[type=radio]{
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border: 3px solid palevioletred;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type=radio]:checked::after{
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: #F30AEA;
+  border-radius: 50%;
+  display: block;
+
+} */
